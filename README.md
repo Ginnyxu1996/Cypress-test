@@ -1,12 +1,14 @@
 # Cypress-test
-Cypress test for login
+This project contains Cypress tests for login functionality of the SauceDemo website
 
-## Install Cypress
+## Setup
+Clone the repository to your local machine and run the following command
 ```
-npm install cypress --save-dev
+npm install
 ```
 
-## Run the tests and generate report
+## Run the tests and generate the report
+run the login test
 ```
 npx cypress run --spec cypress/e2e/standardUserLogin.cy.js
 ```
