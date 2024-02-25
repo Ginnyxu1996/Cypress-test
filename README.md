@@ -6,7 +6,13 @@ Cypress test for login
 npm install cypress --save-dev
 ```
 
-## Running the tests
+## Run the tests and generate report
+The report can be found under cypress/reports
+```
+npx cypress run
+```
+
+## Run the tests with dashboard
 ```
 npx cypress open
 ```
